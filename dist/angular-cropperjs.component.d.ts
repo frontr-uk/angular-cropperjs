@@ -1,5 +1,6 @@
 import { EventEmitter, ElementRef } from '@angular/core';
-import { Cropper } from 'cropperjs/dist/cropper';
+// import { Cropper } from 'cropperjs/dist/cropper';
+import Cropper = require('cropperjs');
 export interface ImageCropperSetting {
     width: number;
     height: number;
